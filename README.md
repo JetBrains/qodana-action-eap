@@ -1,4 +1,4 @@
-# Qodana JVM
+# Qodana - EAP Linters
 
 ![Qodana EAP version alert](resources/eap-alert.png)
 
@@ -8,7 +8,7 @@
 
 <!-- toc -->
 
-- [Qodana JVM](#qodana-jvm)
+- [Qodana - EAP Linters](#qodana---eap-linters)
   - [Usage](#usage)
   - [Output Results](#output-results)
   - [License Summary](#license-summary)
