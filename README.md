@@ -34,14 +34,7 @@
 
 ```yaml
 - name: Qodana - JVM
-  uses: JetBrains/qodana-jvm-action@v1.1.1-eap
-  with:
-    linter: qodana-jvm
-```
- 
-```yaml
-- name: Qodana - JVM
-  uses: JetBrains/qodana-jvm-action@v1.1.1-eap
+  uses: JetBrains/qodana-action-eap@v1.1.1-eap
   with:
     linter: qodana-jvm
     fail-threshold: 10
