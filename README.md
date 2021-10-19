@@ -11,7 +11,7 @@
 - [Qodana - EAP Linters](#qodana---eap-linters)
   - [Usage](#usage)
   - [Output Results](#output-results)
-  - [License Summary](#license-summary)
+  - [License](#license)
 
 <!-- tocstop -->
 
@@ -33,8 +33,15 @@
 * `additional-env-variables` - Additional environment variables to pass to qodana docker image
 
 ```yaml
+- name: Qodana - Android
+  uses: JetBrains/qodana-action-eap@v1.1.2-eap
+  with:
+    linter: qodana-jvm-android
+```
+ 
+```yaml
 - name: Qodana - JVM
-  uses: JetBrains/qodana-action-eap@v1.1.1-eap
+  uses: JetBrains/qodana-action-eap@v1.1.2-eap
   with:
     linter: qodana-jvm
     fail-threshold: 10
@@ -57,6 +64,6 @@ An example of the Qodana command-line summary output:
 ---- Problems reported: 3 ----
 ```
 
-## License Summary
+## License
 
-By using Qodana, you agree to the [JetBrains EAP user agreement](https://www.jetbrains.com/legal/agreements/user_eap.html) and [JetBrains privacy policy](https://www.jetbrains.com/company/privacy.html).
+Using Qodana docker image you agree to [JetBrains EAP user agreement](https://www.jetbrains.com/legal/docs/toolbox/user_eap/) and [JetBrains privacy policy](https://www.jetbrains.com/legal/docs/privacy/privacy/). The docker image includes an evaluation license which will expire in 30-day. Please ensure you pull a new image on time. 

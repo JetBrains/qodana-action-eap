@@ -4,7 +4,7 @@ author: 'JetBrains'
 
 inputs:
   linter:
-    descrtiption: 'Qodana linter. Possible values: qodana-jvm, qodana-php, qodana-python'
+    descrtiption: 'Qodana linter. Possible values: qodana-jvm, qodana-php, qodana-python and qodana-jvm-android'
     required: true
   project-dir:
     description: 'Project folder to inspect'
