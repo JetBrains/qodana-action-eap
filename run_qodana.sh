@@ -32,6 +32,9 @@ case "$LINTER" in
 "qodana-php")
     qodana_image='jetbrains/qodana-php:2021.2-eap'
     ;;
+"qodana-jvm-android")
+    qodana_image='jetbrains/qodana-jvm-android:2021.2-eap'
+    ;;
 "qodana-python")
     qodana_image='jetbrains/qodana-python:2021.2-eap'
     ;;
