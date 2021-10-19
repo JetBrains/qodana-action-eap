@@ -27,13 +27,13 @@ additional_env_variables=$(if [ -n "$ADDITIONAL_ENV_VARIABLES" ]; then echo $(ad
 
 case "$LINTER" in
 "qodana-jvm")
-    qodana_image='registry.jetbrains.team/p/sa/containers/qodana-jvm:2021.2-rc' #jetbrains/qodana-jvm:2021.2-eap
+    qodana_image='jetbrains/qodana-jvm:2021.2-eap'
     ;;
 "qodana-php")
-    qodana_image='registry.jetbrains.team/p/sa/containers/qodana-php:2021.2-rc' #jetbrains/qodana-php:2021.2-eap
+    qodana_image='jetbrains/qodana-php:2021.2-eap'
     ;;
 "qodana-python")
-    qodana_image='registry.jetbrains.team/p/sa/containers/qodana-python:2021.2-rc' #jetbrains/qodana-python:2021.2-eap
+    qodana_image='jetbrains/qodana-python:2021.2-eap'
     ;;
 *)
     echo "Unknown linter type: $LINTER"
