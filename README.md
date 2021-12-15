@@ -34,14 +34,14 @@
 
 ```yaml
 - name: Qodana - Android
-  uses: JetBrains/qodana-action-eap@v1.1.2-eap
+  uses: JetBrains/qodana-action-eap@v1.1.3-eap
   with:
     linter: qodana-jvm-android
 ```
  
 ```yaml
 - name: Qodana - JVM
-  uses: JetBrains/qodana-action-eap@v1.1.2-eap
+  uses: JetBrains/qodana-action-eap@v1.1.3-eap
   with:
     linter: qodana-jvm
     fail-threshold: 10
