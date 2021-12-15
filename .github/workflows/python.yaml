@@ -16,7 +16,7 @@ jobs:
             ${{ runner.os }}-qodana-${{ github.ref }}
             ${{ runner.os }}-qodana-
             
-      - uses: a-kuznetsova/qodana-action-eap@main
+      - uses: ./
         with:
           linter: qodana-python
 
