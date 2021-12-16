@@ -44,6 +44,7 @@ case "$LINTER" in
     ;;
 esac
 
+echo "::warning::⚠️ The action is deprecated. Please use https://github.com/JetBrains/qodana-action"
 docker run -u $UID -v "$PROJECT_DIR:/data/project" \
     -v "$RESULTS_DIR:/data/results" \
     -v "$CACHE_DIR:/data/cache" \

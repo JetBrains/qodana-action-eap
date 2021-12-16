@@ -1,3 +1,5 @@
+## ⚠️ The action is deprecated. Please use https://github.com/JetBrains/qodana-action
+
 # Qodana - EAP Linters
 
 ![Qodana EAP version alert](resources/eap-alert.png)
